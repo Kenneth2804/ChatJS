@@ -1,0 +1,37 @@
+body{
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.chat-container{
+	max-width: 400px;
+	margin: 20px auto;
+	border: 1px solid #ccc;
+	padding: 10px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.8);
+}
+
+.chat-log{
+	height: 300px;
+	overflow: auto;
+	border: 1px solid gray;
+	padding: 10px;
+}
+.chat-input{
+	display: flex;
+	margin-top: 12px;
+}
+
+#messageInput{
+	flex: 1;
+	padding: 8px;
+}
+.send-button{
+	padding: 5px;
+	background-color: #007bff;
+	border: none;
+	width: 60px;
+	color: white;
+	border-radius: 10px;
+}
